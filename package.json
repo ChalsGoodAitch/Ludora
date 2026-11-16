@@ -1,0 +1,21 @@
+{
+  "name": "ludora-development",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test:browser": "playwright test",
+    "test:domain": "docker compose exec -T wordpress php ludora-tests/domain/run.php",
+    "lint:php": "docker compose exec -T wordpress sh -c 'find wp-content/plugins/ludora-booking wp-content/themes/ludora wp-content/themes/ludora-child -name \"*.php\" -exec php -l {} \\;'",
+    "build": "node scripts/build.mjs",
+    "package": "python3 scripts/package.py"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.1",
+    "marked": "18.2.0",
+    "node": "24.22.3"
+  }
+}

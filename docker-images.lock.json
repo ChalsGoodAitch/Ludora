@@ -1,0 +1,18 @@
+{
+  "wordpress:7.1.4-php8.4-apache": {
+    "manifest": "sha256:63dbbdf2c9ea29a2e4f417c0d4e7c4b821725d115127f70838dbbc5051ee4db0",
+    "image_id": "sha256:2333d73b47ddfbbda061415afd77396bfd4fe46a50b65a1e5c65304c6f5b7f42"
+  },
+  "wordpress:cli-php8.4": {
+    "manifest": "sha256:37b7e3ed9b537788756f9b5c6dd8ec7c3f3053ee707abc67c776e453ba8f9e55",
+    "image_id": "sha256:b51ee98c643512535128f6d2acb2cbe664970b84a27c589fa2eea8d82ab2de12"
+  },
+  "mariadb:11.4.8": {
+    "manifest": "sha256:bc474f00629f0123c10f9e1bca193a45d18af15a274cf0656acda64f1086c3b6",
+    "image_id": "sha256:05930b0d797cfb528427d7471ece94b70b4325ae0325af9ff09482b19ec35816"
+  },
+  "axllent/mailpit:v1.27.10": {
+    "manifest": "sha256:b1f1be18af530d939a11ee8820b379e0c88eeec204d904bfad68862adced3a5a",
+    "image_id": "sha256:28ccd879e7d68e36c5c45680c3c691849fd2b2684e3b802163a3349a65887265"
+  }
+}

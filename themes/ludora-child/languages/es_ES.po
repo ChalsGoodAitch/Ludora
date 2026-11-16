@@ -1,0 +1,32 @@
+# Copyright (C) 2026 Ludora contributors
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ludora Child 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ludora-child\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-15T22:41:30+00:00\n"
+"PO-Revision-Date: 2026-11-15 00:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ludora-child\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Ludora Child"
+msgstr "Ludora hijo"
+
+#. Description of the theme
+#: style.css
+msgid "An installable example showing how to customize Ludora without editing the parent."
+msgstr "Ejemplo instalable para personalizar Ludora sin editar el tema principal."
+
+#. Author of the theme
+#: style.css
+msgid "Ludora contributors"
+msgstr "Colaboradores de Ludora"

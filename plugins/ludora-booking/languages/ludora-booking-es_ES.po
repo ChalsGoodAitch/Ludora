@@ -1,0 +1,1221 @@
+# Copyright (C) 2026 Ludora contributors
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ludora Booking 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ludora-booking\n"
+"Last-Translator: Ludora contributors\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-15T23:18:36+00:00\n"
+"PO-Revision-Date: 2026-11-15 00:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ludora-booking\n"
+
+#. Plugin Name of the plugin
+#: ludora-booking.php
+msgid "Ludora Booking"
+msgstr "Ludora Booking"
+
+#. Description of the plugin
+#: ludora-booking.php
+msgid "Exclusive room reservations and optional WooCommerce payments for celebration venues."
+msgstr "Reservas de salas en exclusiva y pagos opcionales con WooCommerce para espacios de celebraciones."
+
+#. Author of the plugin
+#: ludora-booking.php
+msgid "Ludora contributors"
+msgstr "Colaboradores de Ludora"
+
+#: src/Admin.php:19
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/Admin.php:20
+msgid "Demo import"
+msgstr "Importar demo"
+
+#: src/Admin.php:27
+msgid "You do not have permission to manage reservations."
+msgstr "No tienes permiso para gestionar reservas."
+
+#: src/Admin.php:33
+msgid "Booking configuration"
+msgstr "Configuración de reservas"
+
+#: src/Admin.php:88
+#: src/Privacy.php:93
+msgid "Reservations"
+msgstr "Reservas"
+
+#: src/Admin.php:107
+#: src/Admin.php:293
+#: src/Frontend.php:155
+#: src/Frontend.php:203
+#: src/WooCommerce.php:293
+msgid "Date"
+msgstr "Fecha"
+
+#: src/Admin.php:109
+msgid "State"
+msgstr "Estado"
+
+#: src/Admin.php:109
+msgid "All"
+msgstr "Todos"
+
+#: src/Admin.php:112
+msgid "Filter"
+msgstr "Filtrar"
+
+#: src/Admin.php:122
+#: src/WooCommerce.php:291
+msgid "Reference"
+msgstr "Referencia"
+
+#: src/Admin.php:122
+#: src/Admin.php:343
+#: src/Frontend.php:150
+#: src/Frontend.php:194
+#: src/WooCommerce.php:292
+msgid "Room"
+msgstr "Sala"
+
+#: src/Admin.php:122
+msgid "Local time"
+msgstr "Hora local"
+
+#: src/Admin.php:122
+msgid "State / payment"
+msgstr "Estado / pago"
+
+#: src/Admin.php:122
+#: src/Frontend.php:60
+msgid "Total"
+msgstr "Total"
+
+#: src/Admin.php:136
+msgid "No reservations match these filters."
+msgstr "No hay reservas que coincidan con estos filtros."
+
+#: src/Admin.php:140
+msgid "Previous results"
+msgstr "Resultados anteriores"
+
+#: src/Admin.php:141
+msgid "Next results"
+msgstr "Resultados siguientes"
+
+#: src/Admin.php:161
+msgid "Export filtered CSV"
+msgstr "Exportar CSV filtrado"
+
+#: src/Admin.php:165
+msgid "Create a manual reservation"
+msgstr "Crear una reserva manual"
+
+#: src/Admin.php:167
+msgid "Responsible adult name"
+msgstr "Nombre del adulto responsable"
+
+#: src/Admin.php:168
+#: src/Frontend.php:170
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/Admin.php:170
+msgid "Create pending request"
+msgstr "Crear solicitud pendiente"
+
+#: src/Admin.php:193
+msgid "Reservation calendar"
+msgstr "Calendario de reservas"
+
+#: src/Admin.php:193
+msgid "Shows actual reservation start dates in the business timezone, with the selected room and state filters. Empty days do not imply availability."
+msgstr "Muestra las fechas reales de inicio en la zona horaria del negocio, con los filtros de sala y estado. Un día vacío no garantiza disponibilidad."
+
+#: src/Admin.php:195
+msgid "Previous month"
+msgstr "Mes anterior"
+
+#: src/Admin.php:196
+msgid "Next month"
+msgstr "Mes siguiente"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:35
+msgid "Sunday"
+msgstr "Domingo"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:29
+msgid "Monday"
+msgstr "Lunes"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:30
+msgid "Tuesday"
+msgstr "Martes"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:31
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:32
+msgid "Thursday"
+msgstr "Jueves"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:33
+msgid "Friday"
+msgstr "Viernes"
+
+#: src/Admin.php:202
+#: src/ConfigurationForm.php:34
+msgid "Saturday"
+msgstr "Sábado"
+
+#: src/Admin.php:253
+msgid "Up to 1,000 reservations are shown per day. Use room and state filters to narrow busy days."
+msgstr "Se muestran hasta 1000 reservas al día. Usa los filtros de sala y estado para acotar los días con más reservas."
+
+#: src/Admin.php:282
+msgid "Room, date and attendance"
+msgstr "Sala, fecha y asistentes"
+
+#: src/Admin.php:282
+msgid "All times use the business timezone. Availability and the final price are checked when you submit."
+msgstr "Todas las horas usan la zona horaria del negocio. La disponibilidad y el precio final se comprueban al enviar."
+
+#: src/Admin.php:284
+#: src/ConfigurationForm.php:100
+#: src/Frontend.php:156
+msgid "Rental mode"
+msgstr "Modalidad de alquiler"
+
+#: src/Admin.php:286
+#: src/ConfigurationForm.php:283
+msgid "Hourly rental"
+msgstr "Alquiler por horas"
+
+#: src/Admin.php:287
+#: src/ConfigurationForm.php:284
+msgid "Shift rental"
+msgstr "Alquiler por turnos"
+
+#: src/Admin.php:288
+#: src/ConfigurationForm.php:285
+msgid "Full opening day"
+msgstr "Día completo de apertura"
+
+#: src/Admin.php:295
+#: src/Frontend.php:157
+msgid "Start time"
+msgstr "Hora de inicio"
+
+#: src/Admin.php:296
+msgid "Duration in minutes"
+msgstr "Duración en minutos"
+
+#: src/Admin.php:297
+#: src/Frontend.php:159
+msgid "Shift"
+msgstr "Turno"
+
+#: src/Admin.php:297
+msgid "Choose a shift for your room"
+msgstr "Elige un turno para tu sala"
+
+#: src/Admin.php:306
+#: src/ConfigurationForm.php:70
+msgid "Children"
+msgstr "Niños"
+
+#: src/Admin.php:307
+#: src/ConfigurationForm.php:71
+#: src/Frontend.php:161
+msgid "Adults"
+msgstr "Adultos"
+
+#: src/Admin.php:309
+msgid "This reservation keeps its package. The configured room, mode, duration and included extras still apply."
+msgstr "Esta reserva conserva su paquete. Se siguen aplicando la sala, modalidad, duración y extras incluidos configurados."
+
+#: src/Admin.php:311
+msgid "Extras and quantities"
+msgstr "Extras y cantidades"
+
+#: src/Admin.php:311
+msgid "Use 0 to omit an optional extra. Required extras and room restrictions are checked when saving."
+msgstr "Usa 0 para omitir un extra opcional. Los extras obligatorios y las restricciones se comprueban al guardar."
+
+#: src/Admin.php:344
+msgid "All rooms"
+msgstr "Todas las salas"
+
+#: src/Admin.php:344
+#: src/ConfigurationForm.php:89
+msgid "Choose a room"
+msgstr "Elige una sala"
+
+#: src/Admin.php:415
+msgid "View WooCommerce order / manage refunds"
+msgstr "Ver pedido de WooCommerce / gestionar reembolsos"
+
+#: src/Admin.php:417
+msgid "New reservation state"
+msgstr "Nuevo estado de reserva"
+
+#: src/Admin.php:421
+msgid "Audit note"
+msgstr "Nota de auditoría"
+
+#: src/Admin.php:422
+msgid "Apply state"
+msgstr "Aplicar estado"
+
+#: src/Admin.php:423
+msgid "Reschedule safely"
+msgstr "Reprogramar con validación"
+
+#: src/Admin.php:426
+msgid "Validate and reschedule"
+msgstr "Validar y reprogramar"
+
+#: src/Admin.php:426
+msgid "Audit log"
+msgstr "Registro de cambios"
+
+#: src/Admin.php:435
+msgid "Business and reservation settings"
+msgstr "Ajustes del negocio y las reservas"
+
+#: src/Admin.php:439
+msgid "Business IANA timezone"
+msgstr "Zona horaria IANA del negocio"
+
+#: src/Admin.php:440
+msgid "Currency ISO code (manual mode)"
+msgstr "Código ISO de moneda (modo manual)"
+
+#: src/Admin.php:441
+msgid "Currency decimal precision (manual mode)"
+msgstr "Decimales de la moneda (modo manual)"
+
+#: src/Admin.php:442
+msgid "Tax basis points added to net prices (manual mode)"
+msgstr "Puntos básicos de impuesto añadidos al precio neto (modo manual)"
+
+#: src/Admin.php:443
+msgid "Checkout hold expiry in minutes"
+msgstr "Caducidad de la retención de pago en minutos"
+
+#: src/Admin.php:444
+msgid "Manual pending request expiry in hours"
+msgstr "Caducidad de las solicitudes manuales pendientes en horas"
+
+#: src/Admin.php:445
+msgid "Personal data retention after reservation in days"
+msgstr "Conservación de datos personales tras la reserva, en días"
+
+#: src/Admin.php:446
+msgid "Published booking conditions page ID"
+msgstr "ID de página publicada de condiciones de reserva"
+
+#: src/Admin.php:447
+msgid "Business notification email"
+msgstr "Correo del negocio para avisos"
+
+#: src/Admin.php:448
+msgid "Business phone"
+msgstr "Teléfono del negocio"
+
+#: src/Admin.php:449
+msgid "Business address"
+msgstr "Dirección del negocio"
+
+#: src/Admin.php:450
+msgid "Opening hours for contact information"
+msgstr "Horario para la información de contacto"
+
+#: src/Admin.php:453
+msgid "Booking mode"
+msgstr "Modo de reserva"
+
+#: src/Admin.php:453
+msgid "Manual requests"
+msgstr "Solicitudes manuales"
+
+#: src/Admin.php:453
+msgid "Without WooCommerce, configured tax is added once to net prices and shown separately. WooCommerce controls currency, precision and tax when payments are enabled. Requests never imply payment or confirmation."
+msgstr "Sin WooCommerce, el impuesto configurado se añade una sola vez al precio neto y se muestra por separado. WooCommerce controla moneda, precisión e impuestos cuando se habilitan pagos. Una solicitud no implica pago ni confirmación."
+
+#: src/Admin.php:453
+msgid "Permanently purge plugin tables and settings only when uninstalling"
+msgstr "Eliminar definitivamente las tablas y ajustes del plugin solo al desinstalarlo"
+
+#: src/Admin.php:453
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: src/Api.php:67
+msgid "Request origin is not allowed."
+msgstr "No se permite el origen de la solicitud."
+
+#: src/Api.php:75
+#: src/Api.php:111
+msgid "Too many requests. Please try again later."
+msgstr "Demasiadas solicitudes. Inténtalo de nuevo más tarde."
+
+#: src/Api.php:110
+msgid "Your session expired. Reload and try again."
+msgstr "La sesión ha caducado. Recarga la página e inténtalo de nuevo."
+
+#: src/Api.php:184
+#: src/Errors.php:101
+msgid "We could not complete this request. Please try again or contact the venue."
+msgstr "No hemos podido completar la solicitud. Inténtalo de nuevo o contacta con el negocio."
+
+#: src/Catalog.php:19
+msgid "Rooms"
+msgstr "Salas"
+
+#: src/Catalog.php:20
+#: src/WooCommerce.php:298
+msgid "Extras"
+msgstr "Extras"
+
+#: src/Catalog.php:21
+msgid "Packages"
+msgstr "Paquetes"
+
+#: src/ConfigurationForm.php:21
+msgid "Prices use integer minor units: 2500 means 25.00 in a two-decimal currency. Times use your business timezone. These rules affect new quotes."
+msgstr "Los precios utilizan unidades monetarias menores enteras: 2500 equivale a 25,00 en una moneda de dos decimales. Las horas utilizan la zona horaria del negocio. Estas reglas afectan a los nuevos presupuestos."
+
+#: src/ConfigurationForm.php:23
+msgid "Available for booking"
+msgstr "Disponible para reservar"
+
+#: src/ConfigurationForm.php:27
+msgid "Weekly opening hours"
+msgstr "Horario de apertura semanal"
+
+#: src/ConfigurationForm.php:27
+msgid "Use HH:MM-HH:MM. Separate multiple intervals with commas. Leave a day empty to close it."
+msgstr "Usa HH:MM-HH:MM. Separa los intervalos con comas. Deja un día vacío para cerrarlo."
+
+#: src/ConfigurationForm.php:41
+msgid "Rental prices"
+msgstr "Precios de alquiler"
+
+#: src/ConfigurationForm.php:49
+msgid "Shifts: one per line as key|Name|HH:MM|HH:MM"
+msgstr "Turnos: uno por línea con clave|Nombre|HH:MM|HH:MM"
+
+#: src/ConfigurationForm.php:50
+msgid "Closed dates: YYYY-MM-DD, separated by commas"
+msgstr "Fechas cerradas: AAAA-MM-DD, separadas por comas"
+
+#: src/ConfigurationForm.php:51
+msgid "Equipment and facilities"
+msgstr "Equipamiento e instalaciones"
+
+#: src/ConfigurationForm.php:52
+msgid "Room rules"
+msgstr "Normas de la sala"
+
+#: src/ConfigurationForm.php:56
+msgid "Price basis"
+msgstr "Base del precio"
+
+#: src/ConfigurationForm.php:59
+msgid "Per reservation"
+msgstr "Por reserva"
+
+#: src/ConfigurationForm.php:60
+msgid "Per hour"
+msgstr "Por hora"
+
+#: src/ConfigurationForm.php:61
+msgid "Per attendee"
+msgstr "Por asistente"
+
+#: src/ConfigurationForm.php:62
+msgid "Per item"
+msgstr "Por unidad"
+
+#: src/ConfigurationForm.php:67
+msgid "Attendees charged"
+msgstr "Asistentes incluidos en el cálculo"
+
+#: src/ConfigurationForm.php:72
+msgid "Everyone"
+msgstr "Todos"
+
+#: src/ConfigurationForm.php:76
+msgid "Price in minor units"
+msgstr "Precio en unidades menores"
+
+#: src/ConfigurationForm.php:77
+msgid "Minimum quantity"
+msgstr "Cantidad mínima"
+
+#: src/ConfigurationForm.php:78
+msgid "Maximum quantity"
+msgstr "Cantidad máxima"
+
+#: src/ConfigurationForm.php:79
+msgid "Shared capacity (0 means unlimited)"
+msgstr "Capacidad compartida (0 significa ilimitada)"
+
+#: src/ConfigurationForm.php:83
+msgid "Required extra"
+msgstr "Extra obligatorio"
+
+#: src/ConfigurationForm.php:84
+msgid "Allowed room IDs, comma separated (empty means all)"
+msgstr "ID de salas permitidas, separados por comas (vacío significa todas)"
+
+#: src/ConfigurationForm.php:99
+msgid "Package room"
+msgstr "Sala del paquete"
+
+#: src/ConfigurationForm.php:101
+msgid "Shift key (for shift rentals)"
+msgstr "Clave del turno (para alquiler por turnos)"
+
+#: src/ConfigurationForm.php:102
+msgid "Duration in minutes (for hourly rentals)"
+msgstr "Duración en minutos (para alquiler por horas)"
+
+#: src/ConfigurationForm.php:103
+msgid "Included extras"
+msgstr "Extras incluidos"
+
+#: src/ConfigurationForm.php:114
+msgid "Advanced configuration"
+msgstr "Configuración avanzada"
+
+#: src/ConfigurationForm.php:114
+msgid "Opening exceptions, date rates and technical blocks are retained when saving guided fields. Enable advanced editing to replace the entire configuration with JSON."
+msgstr "Las excepciones de apertura, tarifas por fecha y bloqueos técnicos se conservan al guardar los campos guiados. Activa la edición avanzada para sustituir toda la configuración mediante JSON."
+
+#: src/ConfigurationForm.php:114
+msgid "Use advanced JSON instead of guided fields"
+msgstr "Usar JSON avanzado en lugar de los campos guiados"
+
+#: src/ConfigurationForm.php:127
+#: src/Errors.php:39
+msgid "Configuration is too large."
+msgstr "La configuración es demasiado grande."
+
+#: src/ConfigurationForm.php:131
+#: src/Errors.php:42
+msgid "Enter a valid JSON configuration object."
+msgstr "Introduce un objeto de configuración JSON válido."
+
+#: src/ConfigurationForm.php:138
+#: src/Errors.php:52
+msgid "Invalid guided configuration."
+msgstr "La configuración guiada no es válida."
+
+#: src/ConfigurationForm.php:146
+#: src/Errors.php:40
+msgid "Duration and increment must be positive; maximum duration must cover the minimum."
+msgstr "La duración y el incremento deben ser positivos; la duración máxima debe cubrir la mínima."
+
+#: src/ConfigurationForm.php:156
+#: src/Errors.php:25
+msgid "A timing rule exceeds the supported range."
+msgstr "Una regla de tiempo supera el intervalo permitido."
+
+#: src/ConfigurationForm.php:165
+#: src/Errors.php:59
+msgid "Opening intervals must use HH:MM-HH:MM."
+msgstr "Los intervalos de apertura deben utilizar HH:MM-HH:MM."
+
+#: src/ConfigurationForm.php:178
+#: src/Errors.php:41
+msgid "Each shift needs key|Name|HH:MM|HH:MM."
+msgstr "Cada turno necesita clave|Nombre|HH:MM|HH:MM."
+
+#: src/ConfigurationForm.php:191
+#: src/Errors.php:38
+msgid "Closed dates must be valid YYYY-MM-DD dates."
+msgstr "Las fechas cerradas deben ser fechas válidas con formato AAAA-MM-DD."
+
+#: src/ConfigurationForm.php:204
+#: src/Errors.php:58
+msgid "Maximum quantity must cover the minimum."
+msgstr "La cantidad máxima debe cubrir la mínima."
+
+#: src/ConfigurationForm.php:212
+#: src/Errors.php:32
+msgid "Choose a valid package room."
+msgstr "Elige una sala válida para el paquete."
+
+#: src/ConfigurationForm.php:222
+#: src/Errors.php:37
+msgid "Choose valid package extras."
+msgstr "Elige extras válidos para el paquete."
+
+#: src/ConfigurationForm.php:239
+#: src/Errors.php:90
+msgid "Use non-negative whole numbers within 100000000."
+msgstr "Utiliza números enteros no negativos hasta 100000000."
+
+#: src/ConfigurationForm.php:253
+#: src/Errors.php:31
+msgid "Choose a valid configuration option."
+msgstr "Elige una opción de configuración válida."
+
+#: src/ConfigurationForm.php:276
+#: src/Errors.php:84
+msgid "Times must use HH:MM with the end after the start on the same day."
+msgstr "Las horas deben utilizar HH:MM, con el final posterior al inicio en el mismo día."
+
+#: src/ConfigurationForm.php:292
+msgid "Child capacity"
+msgstr "Aforo de niños"
+
+#: src/ConfigurationForm.php:293
+msgid "Adult capacity"
+msgstr "Aforo de adultos"
+
+#: src/ConfigurationForm.php:294
+msgid "Minimum duration (minutes)"
+msgstr "Duración mínima (minutos)"
+
+#: src/ConfigurationForm.php:295
+msgid "Maximum duration (minutes)"
+msgstr "Duración máxima (minutos)"
+
+#: src/ConfigurationForm.php:296
+msgid "Booking increment (minutes)"
+msgstr "Incremento de reserva (minutos)"
+
+#: src/ConfigurationForm.php:297
+msgid "Advance notice (minutes)"
+msgstr "Antelación mínima (minutos)"
+
+#: src/ConfigurationForm.php:298
+msgid "Booking horizon (days)"
+msgstr "Horizonte de reservas (días)"
+
+#: src/ConfigurationForm.php:299
+msgid "Buffer before (minutes)"
+msgstr "Margen anterior (minutos)"
+
+#: src/ConfigurationForm.php:300
+msgid "Buffer after (minutes)"
+msgstr "Margen posterior (minutos)"
+
+#: src/Demo.php:20
+msgid "Import an editable venue demo"
+msgstr "Importar una demo editable del negocio"
+
+#: src/Demo.php:20
+msgid "Creates three sample rooms, extras, packages and pages in your chosen language. All prices and venue details are fictional demonstration data. Existing content is never overwritten; repeating an import skips already imported items. Nothing is imported on theme activation."
+msgstr "Crea tres salas de ejemplo, extras, paquetes y páginas en el idioma elegido. Los precios y datos del negocio son ficticios de demostración. No se sobrescribe contenido existente: al repetir, se omiten los elementos ya importados. Activar el tema no importa contenido."
+
+#: src/Demo.php:22
+msgid "Demo language"
+msgstr "Idioma de la demo"
+
+#: src/Demo.php:22
+msgid "Set the imported play park page as the homepage and the imported journal as the blog (replaces Reading settings only)."
+msgstr "Establecer la portada de parque importada como inicio y la página de ideas como blog (solo sustituye los ajustes de Lectura)."
+
+#: src/Demo.php:22
+msgid "Import demo content"
+msgstr "Importar contenido de demo"
+
+#: src/Demo.php:25
+msgid "Last import report"
+msgstr "Informe de la última importación"
+
+#: src/Errors.php:22
+msgid "A numeric setting is outside its allowed range."
+msgstr "Un ajuste numérico está fuera del intervalo permitido."
+
+#: src/Errors.php:23
+msgid "A paid reservation must keep the same total and tax treatment. Cancel/refund and create a new reservation when the amount changes."
+msgstr "Una reserva pagada debe mantener el mismo total y tratamiento fiscal. Si cambia el importe, cancela o reembolsa y crea una nueva reserva."
+
+#: src/Errors.php:24
+msgid "A reservation can only be completed after its end time."
+msgstr "Una reserva solo puede marcarse como completada después de su hora de finalización."
+
+#: src/Errors.php:26
+msgid "An IANA business timezone is required."
+msgstr "Debes indicar una zona horaria IANA para el negocio."
+
+#: src/Errors.php:27
+msgid "An integer value is outside the allowed range."
+msgstr "Un número entero está fuera del intervalo permitido."
+
+#: src/Errors.php:28
+msgid "An integer value is required."
+msgstr "Debes introducir un número entero."
+
+#: src/Errors.php:29
+msgid "Attendance exceeds room capacity or is empty."
+msgstr "El número de asistentes supera el aforo de la sala o está vacío."
+
+#: src/Errors.php:30
+msgid "Checkout must contain exactly one reservation."
+msgstr "El proceso de pago debe contener exactamente una reserva."
+
+#: src/Errors.php:33
+msgid "Choose a valid rental mode and opening date."
+msgstr "Elige una modalidad de alquiler y una fecha de apertura válidas."
+
+#: src/Errors.php:34
+msgid "Choose a valid shift."
+msgstr "Elige un turno válido."
+
+#: src/Errors.php:35
+msgid "Choose an allowed duration and time increment."
+msgstr "Elige una duración y un incremento horario permitidos."
+
+#: src/Errors.php:36
+msgid "Choose an allowed extra quantity."
+msgstr "Elige una cantidad de extras permitida."
+
+#: src/Errors.php:43
+msgid "Enter a valid responsible adult name and email."
+msgstr "Introduce un nombre y un correo electrónico válidos para el adulto responsable."
+
+#: src/Errors.php:44
+msgid "Enter the responsible adult’s name, valid email and accept the booking conditions."
+msgstr "Introduce el nombre y un correo válido del adulto responsable y acepta las condiciones de reserva."
+
+#: src/Errors.php:45
+msgid "Extra quantity exceeds inventory capacity."
+msgstr "La cantidad del extra supera la capacidad del inventario."
+
+#: src/Errors.php:46
+msgid "Extras must be quantities indexed by ID."
+msgstr "Los extras deben indicar cantidades asociadas a su ID."
+
+#: src/Errors.php:47
+msgid "Invalid attendee pricing basis."
+msgstr "El criterio de precio por asistente no es válido."
+
+#: src/Errors.php:48
+msgid "Invalid blocked interval."
+msgstr "El intervalo de bloqueo no es válido."
+
+#: src/Errors.php:49
+msgid "Invalid calendar date."
+msgstr "La fecha del calendario no es válida."
+
+#: src/Errors.php:50
+msgid "Invalid currency."
+msgstr "La moneda no es válida."
+
+#: src/Errors.php:51
+msgid "Invalid date filter."
+msgstr "El filtro de fecha no es válido."
+
+#: src/Errors.php:53
+msgid "Invalid opening interval."
+msgstr "El intervalo de apertura no es válido."
+
+#: src/Errors.php:54
+msgid "Invalid payment state."
+msgstr "El estado de pago no es válido."
+
+#: src/Errors.php:55
+msgid "Invalid retry key."
+msgstr "La clave de reintento no es válida."
+
+#: src/Errors.php:56
+msgid "Invalid state transition."
+msgstr "El cambio de estado no está permitido."
+
+#: src/Errors.php:57
+msgid "Invalid timezone, currency or booking mode."
+msgstr "La zona horaria, la moneda o el modo de reserva no son válidos."
+
+#: src/Errors.php:60
+msgid "Payment order does not match the reservation."
+msgstr "El pedido de pago no corresponde a la reserva."
+
+#: src/Errors.php:61
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+#: src/Errors.php:62
+msgid "Reservation not found."
+msgstr "No se ha encontrado la reserva."
+
+#: src/Errors.php:63
+msgid "Reservation not found. Check your private access link."
+msgstr "No se ha encontrado la reserva. Comprueba tu enlace privado de acceso."
+
+#: src/Errors.php:64
+msgid "Room is not available."
+msgstr "La sala no está disponible."
+
+#: src/Errors.php:65
+msgid "The linked payment order is unavailable. Contact the venue."
+msgstr "El pedido de pago asociado no está disponible. Contacta con el local."
+
+#: src/Errors.php:66
+msgid "The payment currency changed. Request a new reservation quote."
+msgstr "La moneda de pago ha cambiado. Solicita un nuevo presupuesto de reserva."
+
+#: src/Errors.php:67
+msgid "The payment total or linked order changed. Request a new quote."
+msgstr "El total del pago o el pedido asociado han cambiado. Solicita un nuevo presupuesto."
+
+#: src/Errors.php:68
+msgid "The reservation checkout changed. Start again."
+msgstr "Los datos de pago de la reserva han cambiado. Vuelve a empezar."
+
+#: src/Errors.php:69
+msgid "The reservation hold expired or changed. Request availability again."
+msgstr "La retención de la reserva ha caducado o ha cambiado. Consulta de nuevo la disponibilidad."
+
+#: src/Errors.php:70
+msgid "The selected date is outside the booking window."
+msgstr "La fecha seleccionada está fuera del plazo permitido para reservar."
+
+#: src/Errors.php:71
+msgid "The selected interval is blocked."
+msgstr "El intervalo seleccionado está bloqueado."
+
+#: src/Errors.php:72
+msgid "The selected interval is outside opening hours."
+msgstr "El intervalo seleccionado está fuera del horario de apertura."
+
+#: src/Errors.php:73
+msgid "The selected package requires its configured duration."
+msgstr "El paquete seleccionado requiere la duración configurada."
+
+#: src/Errors.php:74
+msgid "The selected package requires its configured room and rental mode."
+msgstr "El paquete seleccionado requiere la sala y la modalidad de alquiler configuradas."
+
+#: src/Errors.php:75
+msgid "The selected package requires its configured shift."
+msgstr "El paquete seleccionado requiere el turno configurado."
+
+#: src/Errors.php:76
+msgid "The venue is closed on this date."
+msgstr "El local está cerrado en esta fecha."
+
+#: src/Errors.php:77
+msgid "This extra is unavailable for this room or mode."
+msgstr "Este extra no está disponible para esta sala o modalidad."
+
+#: src/Errors.php:78
+msgid "This extra requires a single selection."
+msgstr "Este extra solo permite seleccionar una unidad."
+
+#: src/Errors.php:79
+msgid "This local time is ambiguous or does not exist because of a clock change."
+msgstr "Esta hora local es ambigua o no existe debido al cambio de hora."
+
+#: src/Errors.php:80
+msgid "This package is not available."
+msgstr "Este paquete no está disponible."
+
+#: src/Errors.php:81
+msgid "This reservation cannot be rescheduled."
+msgstr "No se puede cambiar la fecha de esta reserva."
+
+#: src/Errors.php:82
+msgid "This retry key was already used for different details."
+msgstr "Esta clave de reintento ya se utilizó con otros datos."
+
+#: src/Errors.php:83
+msgid "This room or a limited extra is no longer available. Choose another time."
+msgstr "Esta sala o un extra con plazas limitadas ya no están disponibles. Elige otra hora."
+
+#: src/Errors.php:85
+msgid "Unable to prepare the reservation checkout."
+msgstr "No se ha podido preparar el pago de la reserva."
+
+#: src/Errors.php:86
+msgid "Unknown extra."
+msgstr "El extra no existe."
+
+#: src/Errors.php:87
+msgid "Unknown operation."
+msgstr "La operación no existe."
+
+#: src/Errors.php:88
+msgid "Unsupported demo language."
+msgstr "El idioma de la demostración no está disponible."
+
+#: src/Errors.php:89
+msgid "Use a valid date and HH:MM local time."
+msgstr "Introduce una fecha válida y una hora local en formato HH:MM."
+
+#: src/Errors.php:91
+msgid "WooCommerce payments are unavailable."
+msgstr "Los pagos con WooCommerce no están disponibles."
+
+#: src/Errors.php:92
+msgid "Your price quote changed. Check availability and price again before sending your request."
+msgstr "Tu presupuesto ha cambiado. Comprueba de nuevo la disponibilidad y el precio antes de enviar la solicitud."
+
+#: src/Errors.php:111
+msgid "Payment hold"
+msgstr "Retención para el pago"
+
+#: src/Errors.php:112
+msgid "Pending"
+msgstr "Pendiente"
+
+#: src/Errors.php:113
+msgid "Confirmed"
+msgstr "Confirmada"
+
+#: src/Errors.php:114
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: src/Errors.php:115
+msgid "Rejected"
+msgstr "Rechazada"
+
+#: src/Errors.php:116
+msgid "Expired"
+msgstr "Caducada"
+
+#: src/Errors.php:117
+msgid "Completed"
+msgstr "Completada"
+
+#: src/Errors.php:118
+msgid "Paid"
+msgstr "Pagada"
+
+#: src/Errors.php:119
+msgid "Failed"
+msgstr "Fallido"
+
+#: src/Errors.php:120
+msgid "Refunded"
+msgstr "Reembolsada"
+
+#: src/Errors.php:122
+msgid "Unknown state"
+msgstr "Estado desconocido"
+
+#: src/Frontend.php:50
+msgid "Checking…"
+msgstr "Consultando…"
+
+#: src/Frontend.php:51
+#: src/Frontend.php:166
+msgid "Check availability and price"
+msgstr "Consultar disponibilidad y precio"
+
+#: src/Frontend.php:52
+#: src/Frontend.php:182
+msgid "Send booking request"
+msgstr "Enviar solicitud de reserva"
+
+#: src/Frontend.php:53
+#: src/Frontend.php:182
+msgid "Continue to secure payment"
+msgstr "Continuar al pago seguro"
+
+#: src/Frontend.php:54
+msgid "Request received — awaiting venue confirmation. Payment has not been received."
+msgstr "Solicitud recibida: pendiente de confirmación del negocio. No se ha recibido el pago."
+
+#: src/Frontend.php:55
+msgid "Time held temporarily. Complete payment before the hold expires."
+msgstr "Horario retenido temporalmente. Completa el pago antes de que venza la retención."
+
+#: src/Frontend.php:56
+msgid "Connection failed. Please retry with the same details."
+msgstr "Error de conexión. Vuelve a intentarlo con los mismos datos."
+
+#: src/Frontend.php:57
+msgid "Details changed. Check availability and price again."
+msgstr "Has cambiado los datos. Consulta de nuevo disponibilidad y precio."
+
+#: src/Frontend.php:58
+msgid "Save this private booking link. Anyone with it can see your booking status."
+msgstr "Guarda este enlace privado. Quien lo tenga podrá ver el estado de tu reserva."
+
+#: src/Frontend.php:59
+msgid "Check booking status"
+msgstr "Consultar estado de reserva"
+
+#: src/Frontend.php:61
+msgid "Tax"
+msgstr "Impuestos"
+
+#: src/Frontend.php:62
+msgid "Net rates shown; taxes are added below."
+msgstr "Se muestran tarifas netas; los impuestos se añaden al final."
+
+#: src/Frontend.php:63
+msgid "Expires at"
+msgstr "Vence el"
+
+#: src/Frontend.php:64
+#: src/Mail.php:52
+msgid "Payment received — venue review required"
+msgstr "Pago recibido: requiere revisión del negocio"
+
+#: src/Frontend.php:100
+msgid "No items are available yet. Please contact the venue."
+msgstr "Todavía no hay elementos disponibles. Contacta con el negocio."
+
+#: src/Frontend.php:103
+msgid "Check dates and price"
+msgstr "Consultar fechas y precio"
+
+#: src/Frontend.php:115
+msgid "Online booking will open after the venue publishes its booking conditions. Please contact the venue."
+msgstr "La reserva en línea estará disponible cuando el local publique sus condiciones de reserva. Contacta con el local."
+
+#: src/Frontend.php:124
+msgid "No rooms are open for booking. Please contact the venue."
+msgstr "No hay salas disponibles para reservar. Contacta con el negocio."
+
+#: src/Frontend.php:126
+#: assets/editor.js:3
+msgid "Room reservation"
+msgstr "Reserva de sala"
+
+#. translators: %s: business IANA timezone.
+#: src/Frontend.php:130
+#, php-format
+msgid "All times use %s. Prices are calculated by the venue’s booking system."
+msgstr "Todas las horas se muestran en %s. El sistema de reservas del negocio calcula los precios."
+
+#: src/Frontend.php:136
+msgid "Full payment only. One reservation per order. Starting a booking replaces all items currently in the cart."
+msgstr "Solo pago completo. Una reserva por pedido. Iniciar una reserva sustituye todos los artículos del carrito actual."
+
+#: src/Frontend.php:138
+msgid "1. Choose your room and time"
+msgstr "1. Elige sala y horario"
+
+#: src/Frontend.php:139
+msgid "Package (optional)"
+msgstr "Paquete (opcional)"
+
+#: src/Frontend.php:139
+msgid "Build your own celebration"
+msgstr "Crea tu propia celebración"
+
+#: src/Frontend.php:156
+#: src/Frontend.php:221
+msgid "By the hour"
+msgstr "Por horas"
+
+#: src/Frontend.php:156
+#: src/Frontend.php:221
+msgid "Named shift"
+msgstr "Por turnos"
+
+#: src/Frontend.php:156
+#: src/Frontend.php:221
+msgid "Full business day"
+msgstr "Día comercial completo"
+
+#: src/Frontend.php:158
+msgid "Duration (minutes)"
+msgstr "Duración (minutos)"
+
+#: src/Frontend.php:160
+msgid "Children (count only)"
+msgstr "Niños y niñas (solo número)"
+
+#: src/Frontend.php:163
+msgid "2. Extras"
+msgstr "2. Extras"
+
+#: src/Frontend.php:165
+msgid "Set a quantity to add an extra. The quote explains its pricing basis and includes any required extras."
+msgstr "Indica una cantidad para añadir un extra. El presupuesto explica cómo se calcula e incluye los extras obligatorios."
+
+#: src/Frontend.php:168
+msgid "3. Responsible adult"
+msgstr "3. Adulto responsable"
+
+#: src/Frontend.php:169
+msgid "Full name"
+msgstr "Nombre completo"
+
+#: src/Frontend.php:171
+msgid "Phone (optional)"
+msgstr "Teléfono (opcional)"
+
+#: src/Frontend.php:173
+msgid "I accept the booking and cancellation conditions."
+msgstr "Acepto las condiciones de reserva y cancelación."
+
+#: src/Frontend.php:177
+msgid "Read conditions (opens a new tab)"
+msgstr "Leer condiciones (se abre en otra pestaña)"
+
+#: src/Frontend.php:181
+msgid "Local demo booking conditions"
+msgstr "Condiciones de reserva de la demostración local"
+
+#: src/Frontend.php:181
+msgid "This local demonstration uses fictional rooms and prices. No real venue or live payment is provided. Manual requests await venue confirmation and expire according to settings. Payment holds expire separately. Cancelling a booking does not automatically refund payment. Publish your own reviewed conditions before accepting public reservations."
+msgstr "Esta demostración local utiliza salas y precios ficticios. No ofrece un local real ni pagos reales. Las solicitudes manuales esperan la confirmación del local y caducan según los ajustes. Las retenciones para el pago caducan por separado. Cancelar una reserva no devuelve el pago automáticamente. Publica tus propias condiciones revisadas antes de aceptar reservas públicas."
+
+#: src/Frontend.php:183
+msgid "Booking requires JavaScript. Please contact the venue to request a reservation."
+msgstr "La reserva requiere JavaScript. Contacta con el negocio para solicitarla."
+
+#: src/Frontend.php:203
+msgid "Find your celebration"
+msgstr "Encuentra tu celebración"
+
+#. translators: 1: child capacity, 2: adult capacity.
+#: src/Frontend.php:216
+msgid "Room details"
+msgstr "Detalles de la sala"
+
+#. translators: 1: child capacity, 2: adult capacity.
+#: src/Frontend.php:216
+#, php-format
+msgid "Capacity: %1$d children and %2$d adults."
+msgstr "Aforo: %1$d niños y niñas y %2$d adultos."
+
+#. translators: 1: child capacity, 2: adult capacity.
+#: src/Frontend.php:216
+msgid "The final price depends on date, mode, duration and extras. Check live availability for a full quote."
+msgstr "El precio final depende de la fecha, modalidad, duración y extras. Consulta disponibilidad real para ver el presupuesto completo."
+
+#. translators: 1: child capacity, 2: adult capacity.
+#: src/Frontend.php:216
+msgid "Check availability"
+msgstr "Consultar disponibilidad"
+
+#: src/Frontend.php:220
+msgid "Indicative base rates"
+msgstr "Tarifas base orientativas"
+
+#: src/Frontend.php:220
+msgid "Base prices before tax and extras. Date and weekday exceptions may change these amounts; the live quote is authoritative."
+msgstr "Precios base antes de impuestos y extras. Las excepciones de fecha y día de la semana pueden cambiar estos importes; prevalece el presupuesto actualizado."
+
+#: src/Mail.php:46
+msgid "Booking request received"
+msgstr "Solicitud de reserva recibida"
+
+#: src/Mail.php:47
+msgid "Reservation confirmed"
+msgstr "Reserva confirmada"
+
+#: src/Mail.php:48
+msgid "Reservation cancelled"
+msgstr "Reserva cancelada"
+
+#: src/Mail.php:49
+msgid "Booking request declined"
+msgstr "Solicitud de reserva rechazada"
+
+#: src/Mail.php:50
+msgid "Reservation expired"
+msgstr "Reserva vencida"
+
+#: src/Mail.php:51
+msgid "Reservation completed"
+msgstr "Reserva completada"
+
+#: src/Mail.php:54
+msgid "Reservation updated"
+msgstr "Reserva actualizada"
+
+#. Translators: %s is the reserved room title.
+#: src/Mail.php:56
+#, php-format
+msgid "Room: %s"
+msgstr "Sala: %s"
+
+#. Translators: %s is the formatted reservation total including its currency.
+#: src/Mail.php:58
+#, php-format
+msgid "Total: %s"
+msgstr "Total: %s"
+
+#. Translators: 1: reservation state, 2: payment state.
+#: src/Mail.php:60
+#, php-format
+msgid "Reservation state: %1$s. Payment state: %2$s."
+msgstr "Estado de reserva: %1$s. Estado de pago: %2$s."
+
+#: src/Mail.php:63
+msgid "This is a request receipt, not a payment receipt or confirmation. Pending requests expire unless the venue confirms them."
+msgstr "Este es un acuse de solicitud, no un recibo de pago ni una confirmación. Las solicitudes pendientes vencen si el negocio no las confirma."
+
+#: src/Mail.php:66
+msgid "Private booking status link (keep it secret):"
+msgstr "Enlace privado de estado de reserva (no lo compartas):"
+
+#: src/Mail.php:68
+msgid "Cancellation does not automatically refund a payment. Contact the venue about any refund."
+msgstr "Cancelar no reembolsa automáticamente un pago. Contacta con el negocio sobre cualquier devolución."
+
+#: src/Privacy.php:22
+#: src/Privacy.php:32
+msgid "Ludora reservations"
+msgstr "Reservas de Ludora"
+
+#: src/Privacy.php:42
+msgid "The booking form collects the responsible adult’s name, email, optional phone, attendance counts and accepted terms. A private session cookie lasts one hour. Reservation records are kept for the configured retention period; payment records follow WooCommerce retention settings. No child profiles or card details are collected by this plugin."
+msgstr "El formulario recoge el nombre, correo, teléfono opcional y aceptación de condiciones del adulto responsable, y el número de asistentes. La cookie de sesión privada dura una hora. Las reservas se conservan durante el plazo configurado; los pagos siguen los ajustes de WooCommerce. Este plugin no recoge perfiles de menores ni datos de tarjetas."
+
+#: src/Privacy.php:121
+msgid "Active reservations are retained until resolved. WooCommerce payment records are handled separately."
+msgstr "Las reservas activas se conservan hasta resolverlas. Los registros de pago de WooCommerce se gestionan por separado."
+
+#: src/WooCommerce.php:117
+msgid "Venue reservation"
+msgstr "Reserva del local"
+
+#: src/WooCommerce.php:294
+msgid "Time"
+msgstr "Hora"
+
+#: src/WooCommerce.php:387
+msgid "Ludora payment needs venue review: the fiscal snapshot does not match."
+msgstr "El pago de Ludora requiere revisión del local: el registro fiscal no coincide."
+
+#: assets/editor.js:3
+msgid "Room and date search"
+msgstr "Búsqueda de sala y fecha"
+
+#: assets/editor.js:3
+msgid "Room collection"
+msgstr "Colección de salas"
+
+#: assets/editor.js:3
+msgid "Business details"
+msgstr "Datos del negocio"
+
+#: assets/editor.js:3
+msgid "Extras collection"
+msgstr "Colección de extras"
+
+#: assets/editor.js:3
+msgid "Birthday packages"
+msgstr "Paquetes de cumpleaños"
+
+#: assets/editor.js:6
+msgid "Live venue content is rendered on the website. Configure it under Ludora."
+msgstr "El contenido actualizado del local se muestra en la web. Configúralo en Ludora."

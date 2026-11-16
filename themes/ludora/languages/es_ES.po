@@ -1,0 +1,302 @@
+# Copyright (C) 2026 Ludora contributors
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ludora 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ludora\n"
+"Last-Translator: Ludora contributors\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-15T17:39:37+00:00\n"
+"PO-Revision-Date: 2026-11-15 18:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ludora\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Ludora"
+msgstr "Ludora"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://example.com/ludora"
+msgstr "https://example.com/ludora"
+
+#. Description of the theme
+#: style.css
+msgid "A warm, accessible block theme for playful spaces and celebrations. Customize every page in the Site Editor. Optional booking features are supplied by Ludora Booking."
+msgstr "Un tema de bloques cálido y accesible para espacios de juego y celebraciones. Personaliza cada página en el editor del sitio. Ludora Booking proporciona las funciones opcionales de reserva."
+
+#. Author of the theme
+#: style.css
+msgid "Ludora contributors"
+msgstr "Colaboradores de Ludora"
+
+#: functions.php:26
+msgid "Ludora homepages"
+msgstr "Páginas de inicio de Ludora"
+
+#: patterns/birthday-experiences.php
+msgctxt "Pattern title"
+msgid "Birthday experiences homepage"
+msgstr "Inicio de experiencias de cumpleaños"
+
+#: patterns/birthday-experiences.php:14
+#: patterns/celebration-room.php:14
+#: patterns/play-park.php:14
+msgid "A SPACE FOR HAPPY MEMORIES"
+msgstr "UN ESPACIO PARA RECUERDOS FELICES"
+
+#: patterns/birthday-experiences.php:15
+msgid "A birthday as bright as they are."
+msgstr "Un cumpleaños lleno de luz."
+
+#: patterns/birthday-experiences.php:16
+msgid "From the first happy hello to the last slice of cake, make a day to remember."
+msgstr "Desde el primer saludo hasta el último trozo de tarta, crea un día para recordar."
+
+#: patterns/birthday-experiences.php:17
+#: patterns/celebration-room.php:17
+#: patterns/play-park.php:17
+msgid "Explore the possibilities"
+msgstr "Descubre las posibilidades"
+
+#: patterns/birthday-experiences.php:20
+#: patterns/celebration-room.php:20
+#: patterns/play-park.php:20
+msgid "MAKE THE DAY YOURS"
+msgstr "UN DÍA A TU MEDIDA"
+
+#: patterns/birthday-experiences.php:21
+#: patterns/celebration-room.php:21
+#: patterns/play-park.php:21
+msgid "More together. More to remember."
+msgstr "Más momentos juntos. Más recuerdos."
+
+#: patterns/birthday-experiences.php:22
+#: patterns/celebration-room.php:22
+#: patterns/play-park.php:22
+msgid "Create a celebration that feels like you, with space to play, gather and enjoy the little moments."
+msgstr "Crea una celebración a tu medida, con espacio para jugar, reunirse y disfrutar de los pequeños momentos."
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "Room to play"
+msgstr "Espacio para jugar"
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "A welcoming place for little adventures and big imaginations."
+msgstr "Un lugar acogedor para pequeñas aventuras y grandes ideas."
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "Time to celebrate"
+msgstr "Tiempo para celebrar"
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "Gather your favourite people and make the space your own."
+msgstr "Reúne a tus personas favoritas y haz tuyo el espacio."
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "The finishing touches"
+msgstr "Los últimos detalles"
+
+#: patterns/birthday-experiences.php:23
+#: patterns/celebration-room.php:23
+#: patterns/play-park.php:23
+msgid "Bring your ideas to life with the details that make you smile."
+msgstr "Da vida a tus ideas con los detalles que te hacen sonreír."
+
+#: patterns/celebration-room.php
+msgctxt "Pattern title"
+msgid "Celebration room homepage"
+msgstr "Inicio de sala de celebraciones"
+
+#: patterns/celebration-room.php:15
+msgid "Your people. Your happy place."
+msgstr "Tu gente. Tu lugar feliz."
+
+#: patterns/celebration-room.php:16
+msgid "Bring everyone together in a welcoming space made for moments that matter."
+msgstr "Reúne a todos en un espacio acogedor para los momentos que importan."
+
+#: patterns/no-results.php
+msgctxt "Pattern title"
+msgid "Nothing here yet"
+msgstr "Todavía no hay contenido"
+
+#: patterns/no-results.php:11
+msgid "Nothing here yet"
+msgstr "Todavía no hay contenido"
+
+#: patterns/no-results.php:12
+msgid "Try another search or browse the pages in the menu."
+msgstr "Prueba otra búsqueda o consulta las páginas del menú."
+
+#: patterns/not-found.php
+msgctxt "Pattern title"
+msgid "This page wandered off"
+msgstr "Esta página se ha perdido"
+
+#: patterns/not-found.php:11
+msgid "This page wandered off"
+msgstr "Esta página se ha perdido"
+
+#: patterns/not-found.php:12
+msgid "Use the search below to find your way back to something lovely."
+msgstr "Utiliza el buscador para encontrar lo que buscas."
+
+#: patterns/play-park.php
+msgctxt "Pattern title"
+msgid "Play park homepage"
+msgstr "Inicio de parque de juegos"
+
+#: patterns/play-park.php:15
+msgid "Little people. Big adventures."
+msgstr "Pequeñas personas. Grandes aventuras."
+
+#: patterns/play-park.php:16
+msgid "A little imagination, a lot of laughter. Make room for your next family celebration."
+msgstr "Un poco de imaginación, muchas risas. Haz espacio para tu próxima celebración familiar."
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr "Papel"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr "Tinta"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Coral"
+msgstr "Coral"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Berry"
+msgstr "Granate"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Teal"
+msgstr "Verde azulado"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Aqua"
+msgstr "Agua"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sunshine"
+msgstr "Sol"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Lavender"
+msgstr "Lavanda"
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr "Blanco"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System sans"
+msgstr "Sans del sistema"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Pequeño"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Mediano"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr "Muy grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr "Titular"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr "Pequeño"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr "Mediano"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Extra large"
+msgstr "Muy grande"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Cabecera"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Pie de página"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Landing page — content only"
+msgstr "Página de destino: solo contenido"
+
+#: styles/lavender.json
+msgctxt "Style variation name"
+msgid "Lavender celebration"
+msgstr "Celebración lavanda"
+
+#: styles/sunny.json
+msgctxt "Style variation name"
+msgid "Sunny playroom"
+msgstr "Sala de juegos soleada"
+
+msgid "Journal"
+msgstr "Diario"
+
+msgctxt "Pattern title"
+msgid "Journal heading"
+msgstr "Título del diario"
+
+msgid "Rounded feature card"
+msgstr "Tarjeta destacada redondeada"

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Ludora">
+  <description>WordPress standards for first-party product code.</description>
+  <file>plugins/ludora-booking</file>
+  <file>themes/ludora</file>
+  <file>themes/ludora-child</file>
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+  <exclude-pattern>*/inc/class-tgm-plugin-activation.php</exclude-pattern>
+  <arg name="extensions" value="php"/>
+  <config name="testVersion" value="8.4-"/>
+  <config name="minimum_wp_version" value="7.1.4"/>
+  <config name="text_domain" value="ludora,ludora-booking,ludora-child"/>
+  <rule ref="WordPress">
+    <exclude name="WordPress.Files.FileName"/>
+  </rule>
+  <rule ref="WordPress.WP.Capabilities">
+    <properties><property name="custom_capabilities" type="array"><element value="manage_ludora"/></property></properties>
+  </rule>
+</ruleset>

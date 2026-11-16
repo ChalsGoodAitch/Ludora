@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "title": "Sunny playroom",
+  "styles": {
+    "color": {
+      "background": "#fff9e8"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#156e6a",
+          "text": "#ffffff"
+        },
+        "border": {
+          "color": "#156e6a"
+        }
+      }
+    }
+  }
+}

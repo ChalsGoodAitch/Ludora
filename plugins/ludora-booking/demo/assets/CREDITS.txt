@@ -1,0 +1,21 @@
+Demo photographs (fictional venue examples, not photographs of the demo business)
+
+ball-pit.jpg
+“Ball pit with playground slide.jpg” — Rachmaninoff (2017)
+Source: https://commons.wikimedia.org/wiki/File:Ball_pit_with_playground_slide.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+Changes: Wikimedia-generated resize to 1280px; browser display may crop to fit.
+
+playground.jpg
+“20220604 Indoor playground NL.jpg” — Ziko (2022)
+Source: https://commons.wikimedia.org/wiki/File:20220604_Indoor_playground_NL.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+Changes: Wikimedia-generated resize to 1280px; browser display may crop to fit.
+
+These photographs and any adapted versions retain their CC BY-SA 4.0 license.
+They are separate works included alongside GPL code. No endorsement is implied.
+Full license: licenses/CC-BY-SA-4.0.txt in the complete package.
+Consult the source and license URLs above when redistributing individual plugin files.
+No AI raster images are used. Research/license retrieval date: 2026-11-15.

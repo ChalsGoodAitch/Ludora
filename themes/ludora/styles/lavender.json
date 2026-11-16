@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "title": "Lavender celebration",
+  "styles": {
+    "color": {
+      "background": "#faf6ff"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#553d72",
+          "text": "#ffffff"
+        },
+        "border": {
+          "color": "#553d72"
+        }
+      }
+    }
+  }
+}
