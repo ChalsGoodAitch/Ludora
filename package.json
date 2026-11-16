@@ -17,5 +17,6 @@
     "@playwright/test": "1.65.1",
     "marked": "18.2.0",
     "node": "24.22.3"
-  }
+  },
+  "license": "GPL-2.0-or-later"
 }

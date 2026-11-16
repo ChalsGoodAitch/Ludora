@@ -57,7 +57,7 @@ with zipfile.ZipFile(OUT / 'ludora-full-package.zip', 'w') as archive:
         if file.is_file(): add(archive, file, Path('ludora-package/documentation') / file.name)
     info = zipfile.ZipInfo('ludora-package/START-HERE.txt', date_time=(2026, 1, 1, 0, 0, 0))
     archive.writestr(info, 'Install the three ZIPs under installable/ through WordPress. Start with documentation/index.html. Developer source lives under source/. Read source/PROGRESS.md and source/docs/test-report.md for actual verification and commercial gates. No account, payment or marketplace approval is included.\n')
-    for name in ('README.md', 'PROJECT_SPEC.md', 'PROGRESS.md', 'PLAN.md', 'AGENTS.md', 'compose.yaml', 'compose.clean.yaml', 'docker-images.lock.json', '.env.example', 'package.json', 'package-lock.json', 'composer.json', 'composer.lock', 'phpcs.xml', 'playwright.config.js'):
+    for name in ('README.md', 'LICENSE', 'NOTICE.md', 'PROJECT_SPEC.md', 'PROGRESS.md', 'PLAN.md', 'AGENTS.md', 'compose.yaml', 'compose.clean.yaml', 'docker-images.lock.json', '.env.example', 'package.json', 'package-lock.json', 'composer.json', 'composer.lock', 'phpcs.xml', 'playwright.config.js'):
         file = ROOT / name
         if file.is_file(): add(archive, file, Path('ludora-package/source') / name)
 
