@@ -41,23 +41,21 @@ for directory in ('themes/ludora', 'themes/ludora-child', 'plugins/ludora-bookin
     for file in sorted((ROOT / directory).rglob('*')):
         if file.is_file():
             installed['wp-content/' + str(file.relative_to(ROOT))] = hashlib.sha256(file.read_bytes()).hexdigest()
+(ROOT / 'tests/artifacts').mkdir(parents=True, exist_ok=True)
 (ROOT / 'tests/artifacts/product-file-manifest.json').write_text(json.dumps(installed, indent=2) + '\n')
 
 with zipfile.ZipFile(OUT / 'ludora-full-package.zip', 'w') as archive:
     for name in ('ludora.zip', 'ludora-child.zip', 'ludora-booking.zip'):
         add(archive, OUT / name, Path('ludora-package/installable') / name)
-    for directory in ('docs', 'demo', 'docker', 'licenses', 'marketplace', 'themes', 'plugins', 'scripts', 'tests/domain', 'tests/integration', 'tests/browser', 'tests/woocommerce'):
+    for directory in ('docs', 'demo', 'docker', 'licenses', 'themes', 'plugins', 'scripts', 'tests/domain', 'tests/integration', 'tests/browser', 'tests/woocommerce'):
         for file in sorted((ROOT / directory).rglob('*')):
             if file.is_file() and not any(part in DENY for part in file.relative_to(ROOT).parts) and file.suffix not in ('.log', '.zip'):
                 add(archive, file, Path('ludora-package/source') / file.relative_to(ROOT))
-    for file in sorted((ROOT / 'tests/artifacts').glob('*')):
-        if file.is_file() and file.suffix in ('.txt', '.json') and file.name not in ('package-build.json', 'package-audit.json', 'final-reproducibility.json'):
-            add(archive, file, Path('ludora-package/evidence') / file.name)
     for file in sorted((ROOT / 'docs/guides').glob('*')):
         if file.is_file(): add(archive, file, Path('ludora-package/documentation') / file.name)
     info = zipfile.ZipInfo('ludora-package/START-HERE.txt', date_time=(2026, 1, 1, 0, 0, 0))
-    archive.writestr(info, 'Install the three ZIPs under installable/ through WordPress. Start with documentation/index.html. Developer source lives under source/. Read source/PROGRESS.md and source/docs/test-report.md for actual verification and commercial gates. No account, payment or marketplace approval is included.\n')
-    for name in ('README.md', 'LICENSE', 'NOTICE.md', 'PROJECT_SPEC.md', 'PROGRESS.md', 'PLAN.md', 'AGENTS.md', 'compose.yaml', 'compose.clean.yaml', 'docker-images.lock.json', '.env.example', 'package.json', 'package-lock.json', 'composer.json', 'composer.lock', 'phpcs.xml', 'playwright.config.js'):
+    archive.writestr(info, 'Install the three ZIPs under installable/ through WordPress. Start with documentation/index.html. Developer source lives under source/. Read source/README.md for development instructions and source/NOTICE.md for licensing notices.\n')
+    for name in ('README.md', 'LICENSE', 'NOTICE.md', 'compose.yaml', 'compose.clean.yaml', 'docker-images.lock.json', '.env.example', 'package.json', 'package-lock.json', 'composer.json', 'composer.lock', 'phpcs.xml', 'playwright.config.js'):
         file = ROOT / name
         if file.is_file(): add(archive, file, Path('ludora-package/source') / name)
 

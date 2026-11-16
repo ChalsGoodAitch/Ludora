@@ -15,3 +15,17 @@ tests/artifacts/browser/
 playwright-report/
 test-results/
 .DS_Store
+
+# Local planning notes, reports and generated distributions
+/AGENTS.md
+/PROJECT_SPEC.md
+/PROGRESS.md
+/PLAN.md
+/tests/artifacts/
+/dist/
+/marketplace/
+/docs/decisions.md
+/docs/external-actions.md
+/docs/marketplace-requirements.md
+/docs/requirements-matrix.md
+/docs/test-report.md
